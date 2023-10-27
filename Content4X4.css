@@ -1,0 +1,56 @@
+.divider-v {
+    position: relative;
+    background-color: var(--white);
+    width: 1px;
+    height: 89px;
+  }
+  .applications {
+    margin: 0;
+  }
+  .text2,
+  .value4 {
+    position: relative;
+  }
+  .text2 {
+    align-self: stretch;
+    font-weight: 500;
+  }
+  .value4 {
+    font-size: var(--text-40-bold-size);
+  }
+  .col,
+  .row-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .col {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-3xs);
+  }
+  .row-1 {
+    align-self: stretch;
+    flex-direction: row;
+    gap: var(--gap-base);
+  }
+  .divider-h {
+    align-self: stretch;
+    position: relative;
+    background-color: var(--white);
+    height: 1px;
+  }
+  .content-4x4 {
+    /* width: 372px; */
+    height: 281px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    font-size: var(--text-16-medium-size);
+    color: var(--white);
+    font-family: var(--text-14-medium);
+  }
+  

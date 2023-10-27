@@ -1,0 +1,25 @@
+.recruited {
+    margin: 0;
+  }
+  .text-label {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+  }
+  .value7 {
+    position: relative;
+    font-size: var(--text-40-bold-size);
+  }
+  .col3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-3xs);
+    text-align: center;
+    font-size: var(--text-16-medium-size);
+    color: var(--white);
+    font-family: var(--text-14-medium);
+  }
+  

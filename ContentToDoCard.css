@@ -1,0 +1,40 @@
+
+
+.h-scroll,
+.to-do-col {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+/* ContentToDoCard.css */
+
+.content-to-do-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 75px;
+}
+
+.h-scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.to-do-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns per row */
+  gap: 20px; /* Adjust the gap between cards */
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Your other CSS styles... */
+
+
+
+
